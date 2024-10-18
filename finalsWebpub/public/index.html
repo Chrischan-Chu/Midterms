@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h3>API List</h3>
+        <p>Dish Types</p>
+        <ul>
+            <li><a href="dishes">List of Dishes</a></li>
+            <li><a href="dishes/Sisig">Sisig</a></li>   
+            <li><a href="dishes/Salpicao">Salpicao</a></li>
+            <li><a href="dishes/Bagnet">Bagnet</a></li>
+        </ul>
+        <button onClick="loadDishes()">Load Dishes</button>
+        <button onClick="loadSpecificDish(1)">Load Sisig</button>
+        <button onClick="loadSpecificDish(2)">Load Salpicao</button>
+        <button onClick="loadSpecificDish(3)">Load Bagnet</button>
+        
+    </div>
+    <div>
+        <table>
+            <thead>
+                <th>ID</th>
+                <th>Dish Type</th>
+                <th>Province</th>
+                <th>Price</th>
+                <th>Size</th>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+    <script src="middleware.js"></script>
+    
+</body>
+</html>
